@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/black'
+
+  get 'static_pages/blue'
+
+  get 'static_pages/colorless'
+
+  get 'static_pages/green'
+
+  get 'static_pages/red'
+
+  get 'static_pages/white'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
